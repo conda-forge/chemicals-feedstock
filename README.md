@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicals-feedstock/blob/master/LICENSE.txt)
 
-Summary: Chemical properties component of Chemical Engineering Design Library (ChEDL)
+Summary: Chemical database of Chemical Engineering Design Library (ChEDL)
 
 Current build status
 ====================
