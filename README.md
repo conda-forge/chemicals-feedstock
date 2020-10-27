@@ -116,4 +116,5 @@ Feedstock Maintainers
 
 * [@CalebBell](https://github.com/CalebBell/)
 * [@volpatto](https://github.com/volpatto/)
+* [@yoelcortes](https://github.com/yoelcortes/)
 
