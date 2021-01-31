@@ -1,5 +1,5 @@
 {% set name = "chemicals" %}
-{% set version = "0.1.5" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chemicals-{{ version }}.tar.gz
-  sha256: db508a38e0e102e83bf1facb40b55ac428ed21fe34f9e342b1b0601312142672
+  sha256: cc37239deca75dd5842d4413e851a03ef6beafc90c6cca62f05254690b4027ac
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/CalebBell/chemicals
-  summary: Chemical database of Chemical Engineering Design Library (ChEDL) 
+  summary: Chemical database of Chemical Engineering Design Library (ChEDL)
   license: MIT
   license_file: LICENSE.txt
 
