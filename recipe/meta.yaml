@@ -18,11 +18,11 @@ build:
 requirements:
   host:
     - pip
-    - python >= 3.6
+    - python >=3.6
   run:
     - fluids >=1.0.3
     - pandas
-    - python >= 3.6
+    - python >=3.6
     - scipy
 
 test:
