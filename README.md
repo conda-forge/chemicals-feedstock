@@ -9,6 +9,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicals-feeds
 
 Summary: Chemical database of Chemical Engineering Design Library (ChEDL)
 
+Development: https://github.com/CalebBell/chemicals
+
+Documentation: https://chemicals.readthedocs.io/
+
+The chemicals library features an extensive compilation of pure component chemical data that can serve engineers, scientists, technicians, and anyone working with chemicals. The chemicals library facilitates the retrieval and calculation of:
+
+Chemical constants including formula, molecular weight, normal boiling and melting points, triple point, heat of formation, absolute entropy of formation, heat of fusion, similarity variable, dipole moment, accentric factor, etc.
+Assorted information of safety and toxicity of chemicals.
+Methods (and their respective coefficients) for the calculation of temperature and pressure dependent chemical properties including vapor pressure, heat capacity, molar volume, thermal conductivity, surface tension, dynamic viscosity, heat of vaporization, relative permitivity, etc.
+Methods to solve thermodynamic phase equilibrium, including flash routines, vapor-liquid equilibrium constant correlations, and both numerical and analytical solutions for the Rashford Rice and Li-Johns-Ahmadi equations. Rashford Rice solutions for systems of 3 or more phases are also available.
+
+Data for over 20,000 chemicals are made available as local databanks in this library. All databanks are loaded on-demand, saving loading time and RAM. For example, if only data on the normal boiling point is required, the chemicals library will only load normal boiling point datasets. This on-demand loading feature makes the chemicals library an attractive dependence for software modeling chemical processes. In fact, The Biorefinery Simulation and Techno-Economic Analysis Modules (BioSTEAM) is reliant on the chemicals library for the simulation of unit operations.
+
+The chemicals library also supports integration with Numba, a powerful accelerator that works well with NumPy; Pint Quantity objects to keep track of units of measure; and NumPy vectorized functions.
+
+If you need to know something about a chemical, give chemicals a try.
+
+
 Current build status
 ====================
 
@@ -36,6 +54,7 @@ Installing `chemicals` from the `conda-forge` channel can be achieved by adding 
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `chemicals` can be installed with:
