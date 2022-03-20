@@ -5,7 +5,7 @@ Home: https://github.com/CalebBell/chemicals
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicals-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicals-feedstock/blob/main/LICENSE.txt)
 
 Summary: Chemical database of Chemical Engineering Design Library (ChEDL)
 
@@ -33,8 +33,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10992&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/chemicals-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10992&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/chemicals-feedstock?branchName=main">
       </a>
     </td>
   </tr>
