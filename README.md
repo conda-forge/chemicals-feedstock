@@ -1,11 +1,11 @@
-About chemicals
-===============
+About chemicals-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicals-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/CalebBell/chemicals
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/chemicals-feedstock/blob/main/LICENSE.txt)
 
 Summary: Chemical database of Chemical Engineering Design Library (ChEDL)
 
