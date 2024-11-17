@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -24,7 +24,6 @@ requirements:
     - pandas
     - python >=3.6
     - scipy
-    - setuptools
 
 test:
   imports:
