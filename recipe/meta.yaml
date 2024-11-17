@@ -11,19 +11,23 @@ source:
   sha256: 8af8a6e59482e0b5b9d2365b8e804c73ba451458cc231886f8c9376d74a54ae6
 
 build:
-  number: 0
+  number: 2
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools
   run:
-    - fluids >=1.0.3
+    - fluids >=1.0.27
     - pandas
     - python >=3.6
     - scipy
+    - sympy
+    - pint
+    - fuzzywuzzy
 
 test:
   imports:
