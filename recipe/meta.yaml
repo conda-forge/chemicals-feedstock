@@ -24,6 +24,7 @@ requirements:
     - pandas
     - python >=3.6
     - scipy
+    - setuptools
 
 test:
   imports:
