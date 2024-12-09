@@ -1,5 +1,5 @@
 {% set name = "chemicals" %}
-{% set version = "1.3.1" %}
+{% set version = "1.3.2" %}
 
 
 package:
@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chemicals-{{ version }}.tar.gz
-  sha256: 8af8a6e59482e0b5b9d2365b8e804c73ba451458cc231886f8c9376d74a54ae6
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/chemicals-{{ version }}.tar.gz
+  sha256: 902e21517aa7f88ac42404f843552f8c9c1f4e357f00398bbd6fc85757e5b208
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
